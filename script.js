@@ -1,10 +1,10 @@
 const SITE_DATA = {
   name: "Sethulakshmi Vazhayil",
   role: "PhD Researcher in Astrophysics | Time-domain astrophysics",
-  tagline: "I decode how stars end, and what their echoes teach us about galaxies.",
+  tagline: "Decoding the physics of stellar death and explosion.",
   description:
-    "Astronomer focused on supernovae, time-domain surveys, and the narrative hidden inside noisy spectrum. I blend statistical rigor with visual storytelling so each transient becomes a map of physics, not just a detection.",
-  profilePhotoUrl: "assets/profile.jpeg",
+    "I am a PhD researcher in astronomy at Universidad Diego Portales, specializing in the physics of supernovae and their environments. My work focuses on time-domain surveys and the extraction of physical insight from noisy spectroscopic data. I aim to transform transient events into coherent physical narratives—revealing the mechanisms that govern stellar death, explosion dynamics, and their interaction with the surrounding medium. Each transient-is not merely a detection, but a structured map of underlying astrophysical processes!!.",
+  profilePhotoUrl: "profile.jpeg",
   cvUrl: "assets/resume.pdf",
   heroMeta: [
     "Core-collapse supernova",
@@ -256,7 +256,7 @@ function renderHero() {
     photoEl.src = SITE_DATA.profilePhotoUrl;
     photoEl.alt = `${SITE_DATA.name} profile photo`;
     photoEl.onerror = () => {
-      photoEl.src = "assets/profile.jpeg";
+      photoEl.src = "profile.jpeg";
     };
   }
 
